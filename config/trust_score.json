@@ -1,0 +1,39 @@
+{
+    "base_score": 100,
+
+    "sentiment": {
+        "Positive": 0,
+        "Neutral": 10,
+        "Negative": 30
+    },
+
+    "emotion": {
+        "Neutral": 0,
+        "Disappointment": 5,
+        "Frustration": 15,
+        "Fear": 20,
+        "Anger": 25
+    },
+
+    "severity": {
+        "Low": 0,
+        "Medium": 10,
+        "High": 20,
+        "Critical": 30
+    },
+
+    "repeatComplaintPenalty": 20,
+
+    "repeatKeywords": [
+        "again",
+        "still",
+        "third complaint",
+        "fourth complaint",
+        "repeatedly",
+        "ignored",
+        "no action",
+        "nobody responded",
+        "not resolved",
+        "multiple complaints"
+    ]
+}
