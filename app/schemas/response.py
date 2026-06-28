@@ -29,7 +29,6 @@ class Analysis(BaseModel):
     severity: Severity
     trustScore: TrustScore
     priority: str
-    summary: str
 
 class ComplaintResponse(BaseModel):
     grievanceId: str
