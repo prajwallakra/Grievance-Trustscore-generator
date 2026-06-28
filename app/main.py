@@ -16,6 +16,5 @@ def home():
     return {"message": "Welcome to the Grievance TrustScore Generator API!"}
 
 @app.post("/analyze", response_model=ComplaintResponse)
-def analyze_complaint(request: ComplaintRequest):
-
+def analyze(request: ComplaintRequest):
     return pipeline.process(request)

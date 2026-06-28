@@ -1,0 +1,37 @@
+{
+    "base_score": 0,
+
+    "category": {
+        "Water": 20,
+        "Electricity": 25,
+        "Road": 20,
+        "Sanitation": 15,
+        "Healthcare": 35,
+        "Fire": 50
+    },
+
+    "sentiment": {
+        "Positive": 0,
+        "Neutral": 5,
+        "Negative": 20
+    },
+
+    "emotion": {
+        "Neutral": 0,
+        "Disappointment": 5,
+        "Frustration": 10,
+        "Fear": 20,
+        "Anger": 15
+    },
+
+    "critical_keywords": {
+        "fire": 40,
+        "flood": 35,
+        "bridge collapsed": 50,
+        "gas leak": 50,
+        "accident": 30,
+        "death": 50,
+        "injured": 30,
+        "electrocution": 45
+    }
+}
