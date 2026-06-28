@@ -6,8 +6,15 @@
         "Electricity": 25,
         "Road": 20,
         "Sanitation": 15,
-        "Healthcare": 35,
-        "Fire": 50
+        "Health": 35,
+        "Fire": 50,
+        "Police":30,
+        "Education": 20,
+        "Environment": 15,
+        "Transport":20,
+        "Government Services": 25,
+        "Housing": 20,
+        "Sanitisation": 15
     },
 
     "sentiment": {
