@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-
+DEFAULT_CATEGORY_SCORE = 10
 class SeverityEngine:
 
     def __init__(self):
@@ -22,7 +22,7 @@ class SeverityEngine:
     ):
 
         score = self.config["base_score"]
-        score += self.config["category"].get(category, 0)
+        score += self.config["category"].get(category, DEFAULT_CATEGORY_SCORE)
         score += self.config["sentiment"].get(sentiment, 0)
         score += self.config["emotion"].get(emotion, 0)
         text = description.lower()
