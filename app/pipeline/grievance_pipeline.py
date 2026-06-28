@@ -17,7 +17,7 @@ from app.services.trust_score import TrustScoreEngine
 class GrievancePipeline:
     def __init__(self):
 
-        print("Initializing AI Pipeline...")
+        print("Initializing Pipeline...")
 
         self.sentiment_model = SentimentModel()
         self.emotion_model = EmotionModel()
