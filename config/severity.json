@@ -14,7 +14,8 @@
         "Transport":20,
         "Government Services": 25,
         "Housing": 20,
-        "Sanitisation": 15
+        "Sanitisation": 15,
+        "Waste Management": 15
     },
 
     "sentiment": {
